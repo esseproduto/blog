@@ -38,6 +38,10 @@ DEFAULT_PAGINATION = 3
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+# Following items are often useful when publishing
+DISQUS_SITENAME = "esseproduto"
+GOOGLE_ANALYTICS = "UA-71341389-2"
+
 # THEME SPECIFIC
 MENU_LINKS = (
     ('EsseProduto', 'http://esseproduto.com.br'),
