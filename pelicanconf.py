@@ -7,8 +7,8 @@ SITENAME = 'Blog EsseProduto'
 SITEURL = 'http://localhost:7000'
 
 PATH = 'content'
-STATIC_PATHS = ['blog']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['blog', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 ARTICLE_PATHS = ['blog']
 ARTICLE_SAVE_AS = '{slug}.html'
 ARTICLE_URL = '{slug}'
