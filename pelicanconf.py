@@ -39,6 +39,9 @@ DEFAULT_PAGINATION = 3
 #RELATIVE_URLS = True
 
 # THEME SPECIFIC
+MENU_LINKS = (
+    ('EsseProduto', 'http://esseproduto.com.br'),
+)
 DESCRIPTION = 'Confiabilidade através de prova social na aquisição de produtos digitais'
-THEME = 'pelican-semantic-ui/'
+THEME = 'pelican-semantic-ui'
 TWITTER_USERNAME = 'esseproduto'
