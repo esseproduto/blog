@@ -1,9 +1,12 @@
 EsseProduto Blog
 ================
 
-1 - Python 3.5
-2 - mkvirtualenv esseblog
-3 - pip install -r requirements.txt
+# Requirements
+
+- Python 3.5
+- mkvirtualenv esseblog
+- git clone https://github.com/esseproduto/blog --recursive
+- pip install -r requirements.txt
 
 
 # Creating post
@@ -12,8 +15,10 @@ EsseProduto Blog
 
 # Build html
 
-	make html
+	make publish
 
 # Running locally
 
-	make serve [PORT=7000]
+	make serve
+
+Open http://localhost:7000
