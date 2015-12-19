@@ -1,9 +1,9 @@
-Title: Test Post
+Title: Test Post 3
 subtitle: testing subtitle
 Description: This is a test description
 meta_description: This is a meta description
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sodales sem eget egestas sagittis. Vestibulum rutrum fermentum velit, ac feugiat mi aliquet a. Proin maximus lectus at mollis condimentum. Praesent dictum non dui id pharetra. Proin faucibus neque at magna laoreet tempus.
-Date: 2015-12-17
+Date: 2015-12-18
 tags: test, testing
 
 
