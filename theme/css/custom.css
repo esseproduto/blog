@@ -7,12 +7,16 @@ body {
 }
 
 .intro {
-    background: #32B4AA;
+    background: #00A8E8;
     margin-top: 30px !important;
     margin-bottom: 60px !important;
     border-bottom: 1px solid #eee;
     padding: 100px !important;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.ui.menu .item>img:not(.ui) {
+    width: 8.0em;
 }
 
 .articles {
@@ -44,9 +48,16 @@ body {
 }
 
 .main.menu.fixed {
-    background-color: #FFFFFF;
-    border: 1px solid #DDD;
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    background-color: #003459;
+}
+
+.ui.menu .item,
+.ui.text.container {
+    color: #fff;
+}
+
+a.item:hover {
+    color: #fff !important;
 }
 
 .overlay.fixed .menu {
