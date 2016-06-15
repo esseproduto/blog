@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'EsseProduto'
-SITENAME = 'Blog EsseProduto'
+SITENAME = ''
 SITEURL = 'http://localhost:7000'
 
 PATH = 'content'
@@ -15,7 +15,8 @@ ARTICLE_URL = '{slug}'
 
 TIMEZONE = 'America/Sao_Paulo'
 
-DEFAULT_LANG = 'pt'
+DEFAULT_LANG = 'pt-br'
+LOCALE = ('pt_BR')
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -25,9 +26,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
+LINKS = (('Sobre', 'http://esseproduto.com.br/site/sobre'),
+         ('Assine nossa newsletter', 'http://esseproduto.com.br/site/newsletter'),
+         ('Contato', 'http://esseproduto.com.br/site/contato'),
          ('Tags', '/tags/'),)
 
 # Social widget
